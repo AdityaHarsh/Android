@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fakecall"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+        <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="INCOMING CALL"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.fakecall.MainActivity"
+            android:label="Call"
+            android:screenOrientation="portrait" >
+                       <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.fakecall.Incoming"
+            android:label="Call"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="Incoming" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="com.example.fakecall.Answer"
+            android:label="Call"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="Answer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="com.example.fakecall.End"
+            android:label="Call"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="End" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>
