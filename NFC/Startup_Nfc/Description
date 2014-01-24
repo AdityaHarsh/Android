@@ -1,0 +1,6 @@
+This NFC app reads the ID stored in the NFC card and then this ID is used to fetch all the necessary details of the employee from SQLite database.
+This was used for attendance purpose where every employee was given a NFC card with his ID embedded in it. 
+Also if the employee forgets the NFC card, he can manually type his ID.
+
+Keywords
+NFC, SQLite, add delete, update, match
