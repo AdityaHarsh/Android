@@ -1,0 +1,8 @@
+Plz note that the source code for push notification was taken from androidhive.com
+
+The app is basically used so that the user who registers for the notifications will get updates from the admin via google cloud messaging.
+Once registered the app will show the upcoming events and details about it. this is done by connecting it to MYSQL.
+Also if the user wants to register for a particular event he can type from his device and it will be stored in a database
+All notifications and etails are then pushed by the Admin from the web page to all the registered devices.
+ 
+

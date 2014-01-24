@@ -1,0 +1,55 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout 
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+ 
+     
+     <TextView android:layout_width="fill_parent"
+         android:id="@+id/tv"
+         android:layout_height="wrap_content"
+         android:text="db:"
+         android:layout_marginLeft="10dip"
+         android:layout_marginRight="10dip"
+         android:layout_marginTop="20dip"
+         />
+     
+     <EditText android:id="@+id/txtName" 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dip"
+         android:layout_marginBottom="20dip"
+          android:visibility="invisible"/>
+     
+     <TextView android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Email:"
+         android:layout_marginLeft="10dip"
+         android:layout_marginRight="10dip"
+          android:visibility="invisible"/>
+     
+     <EditText android:id="@+id/txtEmail" 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dip"
+         android:layout_marginBottom="20dip"
+          android:visibility="invisible"/>
+     
+     <Button android:id="@+id/btnRegister"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Activate Notifications"
+         android:layout_margin="10dip"/>
+
+     <Button
+         android:id="@+id/bre"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Register for event" />
+
+</LinearLayout>
+</ScrollView>

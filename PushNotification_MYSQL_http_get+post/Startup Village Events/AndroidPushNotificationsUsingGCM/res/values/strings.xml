@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">SV GCM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">Device successfully registered!</string>
+    <string name="gcm_unregistered">Device successfully unregistered!</string>
+    <string name="gcm_message">Message!</string>
+    <string name="gcm_error">Error (%1$s).</string>
+    <string name="gcm_recoverable_error">Recoverable error (%1$s).</string>
+    <string name="gcm_deleted">Server deleted %1$d pending messages!</string>
+    <string name="server_registering">Registering on Server.</string>
+    <string name="server_registered">Successfully added!</string>
+    <string name="server_unregistered">Successfully removed </string>
+    <string name="server_register_error">Could not register device on Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+
+</resources>

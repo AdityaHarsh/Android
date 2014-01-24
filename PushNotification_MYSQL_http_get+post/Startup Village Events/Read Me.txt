@@ -1,0 +1,23 @@
+1. Make sure to change ip address in the following files: \AndroidPushNotificationsUsingGCM\src\com\androidhive\pushnotifications
+	a. Post.java
+	b. RegisterActivity.java
+	c. CommonUtilities.java
+
+2.Place ur Google Project id in CommonUtilities.java and ur Google API key in config.php (stored at C:\wamp\www\gcm_server_php\index1.php).
+
+3. Admin page is 'index1.php' (stored at C:\wamp\www\gcm_server_php\index1.php). Push notification is also sent from this page.
+
+4. The admin, when adding the event, stores it in the database 'sv_events' under the table name 'add_events'.
+
+5. Open the www folder and copy all the contents of this www folder into ur 'wamp\www' folder as it is.
+
+6. For storing registration IDs of your android device for push notifications a new database pushnot is also created. If not then just go to 'phpmyadmin' and create this database. Copy the query present in table.txt and execute this query.Ur push notification will be ready.
+
+7. For posting/ registering for any event..... 'post.php' is the php file(stored at C:\wamp\www\post.php). Note that it is not stored at C:\wamp\www\gcm_server_php\post.php
+The registration details can be seen in 'androidmessaages.html'. It is a HTML file (stored at C:\wamp\www\androidmessages.html).
+Also the registration details are stored in the database named 'emp' under the table 'employee'.
+
+8. Screen shots have been added.
+ 
+ 
+note:to export databases...just create database with the names i have used in phpmyadmin....and click export.
